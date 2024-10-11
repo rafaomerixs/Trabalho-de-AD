@@ -1,0 +1,14 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;  
+}
+
+body {
+  background-color:#4d94e4; 
+}
+css:
+main {
+  width: 900px ;
+  height: 700px ; 
+  background-color: hsl(8998, 58%, 71%);
+  margin: 0 auto; 

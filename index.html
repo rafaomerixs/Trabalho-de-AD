@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br'">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de satisfação de atendimento ao cliente</title>
+</head>
+<body>
+    <main>
+        <form action="/submit" method="POST">
+        <h1>Pesquisa de Satisfação de Atendimento ao Cliente</h1>
+        <form>
+        <fieldset>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required placeholder="Digite seu nome">
+
+            <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+                
+            
+            <label for="service">Comentário:</label>
+            <input type="text" id="service" name="service" required placeholder="Deixe um feedback sobre o atendimento recebido">
+    
+        <fieldset>
+            <legend>Avaliação</legend>
+            <label for="recommendations">
+              <input type="checkbox" id="recommendations" name="recommendations" checked>
+              
+            </label>
+             <label for="satisfaction">Nível de Satisfação:</label>
+            <select id="satisfaction" name="satisfaction">
+              <option value="excelente">Excelente</option>
+              <option value="bom">Bom</option>
+              <option value="regular">Regular</option>
+              <option value="ruim">Ruim</option>
+              <option value="péssimo">Péssimo</option>
+            </select>
+        </fieldset>
+    </form>
+    <link rel="stylesheet" href="./css/index.css">
+    <button type="submit">Enviar</button>
+    <main>
+</body>
+</html>
